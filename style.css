@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+#do{
+    width: 100%;
+}
+#job-table{
+    width: 100%;
+    border:1px solid gray;
+border-collapse: collapse;
+
+}
+.jobs-header-row th {
+    border:1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center
+}
+.jobs-data-row td{
+    border:  1px solid gray;
+    padding: 8px;
+    
+}
+#job-table tr:nth-child(odd) {
+    background-color: azure;
+
+}
+
+#job-table tr:nth-child(even) {
+    background-color: ghostwhite;
+
+}
+#about{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#discription
+{
+    width: 50%;
+    background-color: blue;
+    padding: 0 8px;
+}
+#team {
+    width: 50%;
+
+}
+#team image{
+    border-radius: 50%;
+}
+#logo {
+    
+    height: 20px; width: 200px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-bottom: 0;
+}
+.apply{
+    float: right;
+}
+#footer{
+    background-color: lightgrey;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+#footer-links{
+    list-style: none;
+}
+.copyright{
+    color:gray;
+}
+
+.one{
+    background-color: black;
+    text-align: center;
+    color: yellow;
+    height: 50px;
+    width: 1000px;
+    margin: 10px;
+
+}
+#form{
+    
+      
+}
+.form-group textarea{
+width: 80%;
+
+}
